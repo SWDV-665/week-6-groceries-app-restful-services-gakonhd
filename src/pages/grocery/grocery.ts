@@ -69,7 +69,8 @@ export class GroceryPage {
 
       var item = {
         name: this.name, 
-        quantity: this.quantity
+        quantity: this.quantity, 
+        price: this.price
       }
       // this.groceriesSerivce.addItem(groceryObject);
       this.groceriesSerivce.addItemServer(item)
